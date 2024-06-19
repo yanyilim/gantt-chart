@@ -1,0 +1,22 @@
+@import 'node_modules/primeflex/primeflex.scss';
+
+@import './AppDemo.scss';
+
+.p-paginator .p-dropdown .p-dropdown-label {
+    display: flex;
+    align-items: center;
+}
+
+html {
+    font-size: 13px;
+}
+
+.layout-wrapper.layout-sidebar .layout-menu-wrapper .layout-menu-container .layout-menu li {
+    padding: 3px;
+    font-size: 13px; /* Include font-size here since it's part of the second rule */
+}
+
+
+
+
+
